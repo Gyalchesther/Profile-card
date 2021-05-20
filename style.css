@@ -1,41 +1,119 @@
-/*{
-	margin: 0;
-	padding: 0;
+
+body {
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+  background-position: top 50vh left 52vw, bottom 40vh right 52vw;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  flex-direction: column;
 }
-*/
-h1{
-	color: blue;
-}
-body{
-	background-color:#f4f4f4; 
-	color: #555555;
 
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px 
-	font-weight:normal;
-
-	line-height:1.6em; 
-	margin:0;
+.image-victor{
+  border-radius: 50%;
+  width: auto;
+  height: 120px;
+  margin-top: 80px
 }
 
-.container{
-	width:80%;
-	margin:auto;
+h2 {
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0;
+  font-weight: 700;
 }
-.box-1{
-	background-color:#333;
-	color:#fff;
 
-    border-right:5px red solid;
-    border-left:5px red solid;
-    border-top:5px red solid;
-    border-bottom:5px red solid;
-    border-width:3px;
-    border-bottom-width:10px;
-    border-top-style: dotted;
+h4 {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-    padding:20px;
-    
+span {
+  font-weight: 400;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+hr {
+  border-style: dotted none none none;
+  color: hsl(227, 10%, 46%);
+  margin-top: 0px;
+  margin-bottom: 15px;
+  position: relative;
+  top: 40px;
+}
+
+p {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
 
 
+.Card {
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 440px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px hsl(0, 0%, 0%,0.4);
+  order:2;
+}
+
+.Victor {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  width: 120px;
+  position: relative;
+  top: 100px;
+}
+
+
+.Profil {
+  margin-top: 60px;
+  letter-spacing: 1px;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+
+.cardinformation {
+  margin: auto;
+  position: relative;
+  top: 40px;
+}
+
+.follower {
+  display: inline-block;
+  width: 100px
+}
+
+.Like {
+  display: inline-block;
+    width: 130px
+}
+
+.Photo {
+  display: inline-block;
+    width: 100px;
+}
+
+.attribution {
+  position: relative;
+  top: 150px;
 }
